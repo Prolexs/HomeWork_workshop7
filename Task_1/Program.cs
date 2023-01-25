@@ -27,5 +27,7 @@ void FillArray(double[,] arr)
 
 
 double[,] arr2d = new double[4, 7];
+PrintArray(arr2d);
 FillArray(arr2d);
+Console.WriteLine();
 PrintArray(arr2d);
